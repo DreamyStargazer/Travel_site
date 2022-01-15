@@ -363,7 +363,7 @@ footer {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-top: 93px;
-  height: 261px;
+  max-height: 261px;
 }
 
 .first-section__service-column {
@@ -381,6 +381,7 @@ footer {
       -ms-flex-pack: justify;
           justify-content: space-between;
   max-width: 176px;
+  min-height: 241px;
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
   padding: 0 15px;

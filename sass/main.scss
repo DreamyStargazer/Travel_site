@@ -229,7 +229,7 @@ footer {
 		justify-content: space-between;
 		flex-wrap: wrap;
 		margin-top: 93px;
-		height: 261px;
+		max-height: 261px;
 	}
 	&__service-column {
 		display: flex;
@@ -237,6 +237,7 @@ footer {
 		align-items: center;
 		justify-content: space-between;
 		max-width: 176px;
+		min-height: 241px;
 		box-sizing: content-box;
     padding: 0 15px;
 		&--txt {
