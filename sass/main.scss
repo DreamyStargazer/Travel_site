@@ -297,6 +297,7 @@ footer {
 		display: flex;
 		flex-direction: column;
 		&__row--button {
+			margin: 0 auto;
 			margin-bottom: 15px;
 		}
 	}
@@ -601,6 +602,122 @@ footer {
 		justify-content: center;
 		&__main-link {
 			margin-top: 0;
+		}
+	}
+}
+
+@media (max-width: 535px) {
+	.header {
+		&__form {
+			&--subheading {
+				font-size: $fs-40;
+				line-height: $lh-40;
+				text-align: center;
+				padding-top: 70px;
+			}
+
+		}
+	}
+	.left-column {
+		align-self: center;
+	}
+	.fourth-section {
+		align-items: flex-start;
+	}
+	.review-card {
+		margin-top: 20px;
+		j
+		&__review {
+			padding: 86px 49px 27px 0;
+		}
+	}
+	.review-card {
+		margin-top: 20px;
+		&__review {
+			padding: 86px 49px 27px 0;
+		}
+		&__image {
+			left: 90px;
+			top: -23px;
+		}
+	}
+	.copyright {
+		&__txt {
+			margin-top: 26px;
+		}
+	}
+	.right-column {
+		margin: 0;
+		max-width: 386px;
+	}
+	.gallery {
+		margin-top: 15px;
+		&__row {
+			width: 340px;
+		}
+	}
+}
+
+@media (max-width: 386px) {
+	.header {
+		&__navigation {
+			justify-content: center;
+		}
+		&__form {
+			&--subheading {
+				font-size: $fs-40;
+				line-height: $lh-40;
+				text-align: center;
+				padding-top: 70px;
+			}
+
+		}
+	}
+	.nav-list {
+		justify-content: center;
+		height: 90px;
+		&__item {
+			margin-top: 10px;
+		}
+	}
+	.registration-form {
+		max-width: 366px;
+		&__form {
+			max-width: 325px;
+		}
+	}
+	.first-section {
+		&__service-column {
+			max-width: 372px;
+		}
+	}
+	.fourth-section {
+		margin-top: 50px;
+		align-items: flex-start;
+	}
+	.review-card {
+		margin-top: 20px;
+		&__review {
+			padding: 86px 49px 27px 0;
+		}
+		&__image {
+			left: 90px;
+			top: -23px;
+		}
+	}
+	.right-column {
+		margin: 0;
+		max-width: 386px;
+	}
+	.gallery {
+		margin-top: 15px;
+		&__row {
+			width: 340px;
+		}
+	}
+	.copyright {
+		&__txt {
+			margin-top: 26px;
 		}
 	}
 }
